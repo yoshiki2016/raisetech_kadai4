@@ -11,3 +11,4 @@ public class Main {
         numbers.stream().filter(number -> number % 3 == 0).forEach(System.out::println); // 3の倍数を表示
     }
 }
+

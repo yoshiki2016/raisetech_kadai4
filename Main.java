@@ -1,9 +1,9 @@
 import java.util.List;
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // コンフリクトの解決
-        List<Integer> numbers = List.of(1,2,3,4,5,6);
+        List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6);
         System.out.println("*************************************");
         numbers.stream().filter(number -> number % 2 != 0).forEach(System.out::println); // 偶数を表示
         System.out.println("*************************************");
